@@ -1,0 +1,5 @@
+2019-05-30 14:19:43,766 [main] INFO  Master_Test  - ==========TestCase: TC_01 START==========
+2019-05-30 14:19:46,194 [main] INFO  amazon.ValidateProfile  - Entering Login Details
+2019-05-30 14:20:19,247 [main] INFO  Master_TC  - executeMaster_TC:  End
+2019-05-30 14:20:19,248 [main] INFO  Master_Test  - executeMaster_Test:  End
+2019-05-30 14:20:19,248 [main] INFO  Master_Test  - ==========TestCase END==========

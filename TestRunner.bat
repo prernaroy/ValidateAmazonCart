@@ -1,0 +1,1 @@
+mvn clean install -DRemoteMachineName=10.76.98.5 -DRemoteMachinePort=5566
