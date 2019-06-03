@@ -124,12 +124,13 @@ public boolean ValidateProfile_details(WebDriver driver, List<String> testArray_
 		
 		if(e_mail.equalsIgnoreCase(sUsername))
 		{
+			lowlevellogsobj.info("Authentication is successfull");
+			lowlevellogsobj.info("Adding items in cart");
 		System.out.println("Validation is successfull");
 		System.out.println("Adding items in cart");
 		commfunct_Obj.commonClick(search_field, "Yes");
 		commfunct_Obj.commonSetTextTextBox(search_field, this.mobile_name);
 		search_field.sendKeys(Keys.ENTER);
-		//driver.manage().timeouts().pageLoadTimeout(5000,TimeUnit.MILLISECONDS);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(this.mobile.replace("****", this.mobile_name))));
 		commfunct_Obj.commonClick(drop_down, "Yes");
 		List<WebElement> drop_down=driver.findElements(By.xpath("//div[@class='a-popover-inner']//ul//li//a"));
@@ -139,6 +140,7 @@ public boolean ValidateProfile_details(WebDriver driver, List<String> testArray_
 			System.out.println(feature_data);
 				
 		}
+		lowlevellogsobj.info("Selected item in cart is :" +this.mobile_name);
 		commfunct_Obj.commonClick(filter_select, "Yes");
 		commfunct_Obj.commonClick(select_phone,"Yes");
 		
@@ -150,17 +152,14 @@ public boolean ValidateProfile_details(WebDriver driver, List<String> testArray_
 
         }
         commfunct_Obj.commonClick(Add_Cart,"Yes");
-     
-        
-        
-
-        System.out.println("Item is added to cart!!!!!!!!Please proceed");            
+        lowlevellogsobj.info("Item is added to the cart");
+        lowlevellogsobj.info("Item is added to cart!!!!!!!!Please proceed");            
         commfunct_Obj.commonClick(Cart,"Yes");  
         commfunct_Obj.commonClick(Quan_button,"Yes");
         commfunct_Obj.commonClick(Quantity,"Yes");
         Thread.sleep(1000);
         System.out.println("Quantity added");
-
+        lowlevellogsobj.info("Quantity added successfully");
 		}
 	
 	
