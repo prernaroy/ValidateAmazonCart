@@ -1,0 +1,11 @@
+2019-06-06 12:44:21,276 [main] INFO  Master_Test  - ==========TestCase: TC_01 START==========
+2019-06-06 12:44:23,733 [main] INFO  amazon.ValidateProfile  - Entering Login Details
+2019-06-06 12:44:52,741 [main] INFO  amazon.ValidateProfile  - Authentication is successfull
+2019-06-06 12:44:52,741 [main] INFO  amazon.ValidateProfile  - Adding items in cart
+2019-06-06 12:44:56,947 [main] INFO  amazon.ValidateProfile  - Selected item in cart is :Samsung
+2019-06-06 12:45:02,513 [main] INFO  amazon.ValidateProfile  - Item is added to the cart
+2019-06-06 12:45:02,513 [main] INFO  amazon.ValidateProfile  - Item is added to cart!!!!!!!!Please proceed
+2019-06-06 12:45:10,973 [main] INFO  amazon.ValidateProfile  - Quantity added successfully
+2019-06-06 12:45:10,973 [main] INFO  Master_TC  - executeMaster_TC:  End
+2019-06-06 12:45:10,973 [main] INFO  Master_Test  - executeMaster_Test:  End
+2019-06-06 12:45:10,973 [main] INFO  Master_Test  - ==========TestCase END==========

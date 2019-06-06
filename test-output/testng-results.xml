@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46693" started-at="2019-06-03T06:13:44Z" finished-at="2019-06-03T06:14:31Z">
+  <suite name="Default suite" duration-ms="61908" started-at="2019-06-06T07:14:10Z" finished-at="2019-06-06T07:15:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46693" started-at="2019-06-03T06:13:44Z" finished-at="2019-06-03T06:14:31Z">
+    <test name="Default test" duration-ms="61908" started-at="2019-06-06T07:14:10Z" finished-at="2019-06-06T07:15:12Z">
       <class name="corp.sap.blr.Helaba.Master_Test">
-        <test-method status="PASS" signature="generatePassword()[pri:0, instance:corp.sap.blr.Helaba.Master_Test@1a968a59]" name="generatePassword" is-config="true" duration-ms="77" started-at="2019-06-03T11:43:44Z" finished-at="2019-06-03T11:43:44Z">
+        <test-method status="PASS" signature="generatePassword()[pri:0, instance:corp.sap.blr.Helaba.Master_Test@2b9627bc]" name="generatePassword" is-config="true" duration-ms="62" started-at="2019-06-06T12:44:10Z" finished-at="2019-06-06T12:44:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generatePassword -->
-        <test-method status="PASS" signature="executeMaster_Test(java.util.List)[pri:0, instance:corp.sap.blr.Helaba.Master_Test@1a968a59]" name="executeMaster_Test" duration-ms="43560" started-at="2019-06-03T11:43:45Z" data-provider="getData_executeMaster_Test" finished-at="2019-06-03T11:44:29Z">
+        <test-method status="PASS" signature="executeMaster_Test(java.util.List)[pri:0, instance:corp.sap.blr.Helaba.Master_Test@2b9627bc]" name="executeMaster_Test" duration-ms="59264" started-at="2019-06-06T12:44:11Z" data-provider="getData_executeMaster_Test" finished-at="2019-06-06T12:45:11Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- executeMaster_Test -->
-        <test-method status="PASS" signature="teardownTest()[pri:0, instance:corp.sap.blr.Helaba.Master_Test@1a968a59]" name="teardownTest" is-config="true" duration-ms="1103" started-at="2019-06-03T11:44:29Z" finished-at="2019-06-03T11:44:30Z">
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:corp.sap.blr.Helaba.Master_Test@2b9627bc]" name="teardownTest" is-config="true" duration-ms="1096" started-at="2019-06-06T12:45:11Z" finished-at="2019-06-06T12:45:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTest -->
-        <test-method status="PASS" signature="generateHTMLReport()[pri:0, instance:corp.sap.blr.Helaba.Master_Test@1a968a59]" name="generateHTMLReport" is-config="true" duration-ms="847" started-at="2019-06-03T11:44:30Z" finished-at="2019-06-03T11:44:31Z">
+        <test-method status="PASS" signature="generateHTMLReport()[pri:0, instance:corp.sap.blr.Helaba.Master_Test@2b9627bc]" name="generateHTMLReport" is-config="true" duration-ms="578" started-at="2019-06-06T12:45:12Z" finished-at="2019-06-06T12:45:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateHTMLReport -->

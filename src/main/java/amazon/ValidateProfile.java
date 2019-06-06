@@ -104,6 +104,7 @@ public boolean ValidateProfile_details(WebDriver driver, List<String> testArray_
 			Constants.C_Password);
 	
 	try {
+		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
 		commfunct_Obj.commonClick(btn_loginlnk, "Yes");
 		lowlevellogsobj.info("Entering Login Details");
