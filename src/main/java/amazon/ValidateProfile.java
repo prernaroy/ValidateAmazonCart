@@ -37,7 +37,7 @@ public class ValidateProfile {
 	public ValidateProfile(WebDriver driver) {
 	}
 
-	@FindBy(xpath = "//span[@class='nav-line-2' and text()='Your Orders']")
+	@FindBy(xpath = "//span[contains(text(),'Hello')]")
 	public WebElement btn_loginlnk;
 
 	@FindBy(xpath = "//input[@name='email']")
@@ -61,7 +61,7 @@ public class ValidateProfile {
 	@FindBy(xpath ="//span[@class='a-dropdown-prompt']")
 	private WebElement drop_down;
 	
-	@FindBy(xpath ="//span[@class='a-size-medium a-color-base a-text-normal']")
+	@FindBy(xpath ="//span[@class='a-size-medium a-color-base a-text-normal']//following::span[@class='a-price-whole']")
 	private WebElement select_phone;
 	
 	@FindBy(xpath ="//div[@class='a-popover-inner']//ul//li//a[text()='Price: High to Low']")
@@ -143,7 +143,8 @@ public boolean ValidateProfile_details(WebDriver driver, List<String> testArray_
 		}
 		lowlevellogsobj.info("Selected item in cart is :" +this.mobile_name);
 		commfunct_Obj.commonClick(filter_select, "Yes");
-		commfunct_Obj.commonClick(select_phone,"Yes");
+		commfunct_Obj.commonClick_JavaScript(driver, select_phone);
+		//commfunct_Obj.commonClick(select_phone,"Yes");
 		
 		Set<String> handles = driver.getWindowHandles();
 				
